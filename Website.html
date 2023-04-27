@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+ <html lang = "en">
+ <html>
+    <head>
+	    <title> TUI </title>	
+		<meta name = "viewport" content ="width= device-width, initial-scale =1.0">
+		 <link rel = "stylesheet" href = 'Style.css'>
+		 <link rel = "stylesheet" href ='variable.scss'>
+		 <style>
+		     
+			 
+			 table{
+			 border:3px solid black;  
+			 border-collapse:Collapse;
+			 padding:20px;
+			 margin: 20px;
+			 }
+			  
+			 td,th{
+			 border:3px solid black;
+			 padding: 5px;
+			 }
+			 
+			 div{
+			
+				background-color : lightblue;
+				padding: 20px; /* inside the div*/
+				margin: 20px;
+			
+			 
+			 }
+			 
+			 .mainhead{
+			   color:darkblue;
+			   
+			 }
+			 
+			 ul li {
+			   
+			   color:blue;
+			 
+			 }
+			 
+			 a[href = 'https://www.tuifly.be/nl/']{
+			    color:red;
+			 }
+			 
+			 button {
+			    width : 200px;
+			    height : 50px;
+			    font size : 15px;
+			    background: grey;
+			 }
+             
+             button:hover{
+			  background-color: orange;
+			
+			}	
+            #container	{
+			  display:flex;
+			  flex-wrap : wrap;
+			
+			}	
+		    
+		 </style>
+    </head>
+	
+	<body> 
+	
+	     <h1 class= "mainhead" > Internship : Optimization of MRO hangar using lean principles </h1>
+		 <h2 class="mainhead"> FEB 13 - MAY 19</h2>
+	    <form>
+		  <div>
+		     Log In :
+		     <input name = "Username" type = "text" placeholder= " UserID">
+			 <input name = "password" type ="password" placeholder = "type your password">
+			 
+			</div>
+	    <ol> 
+		  <ol>
+		  <li> Implement 5s</li>
+		  <li> Establish visual management in workplace
+		       <img src = "LeanMRO.jpeg",alt = "lean MRO" width = 500
+			</li>
+	      <li> SPONSERED BY:</li>
+		
+		 
+		   <ul>
+		
+		       <li> <a href = 'https://www.tuifly.be/nl/'> TUI Fly</a> </li>
+			
+			    <li> <a href = 'https://www.mroglobal-online.com/companies/tec4jets/'> TECH4JETS</a> </li>
+		         <li> Team: Optimization hangar 40</li>
+	        </ul>
+		</ol>
+		<table>
+		   <thead>
+		    <tr>
+		     <th>MATERIAL NAME</th>
+			 <th>Total number</th>
+			 <th>Defect</th>
+			 </tr>
+		   </thead>
+		   <tbody>
+		   <tr>
+		    <td>PC COMPUTER</td>
+			<td>1</td>
+			<td>NO</td>
+		   </tr> 
+		   <tr>
+		    <td> PC card holder </td>
+			<td>3</td>
+			<td> NO</td>
+		   </tr> 
+		   </tbody>
+		   
+		    <tr>
+		    <td> Maintenace Ladder </td>
+			<td>10</td>
+			<td> NO</td>
+		   </tr> 
+		   
+		   <tr>
+		    <td> closet 1</td>
+			<td>1</td>
+			<td> NO</td>
+		   </tr> 
+		   <tr>
+		    <td> closet 2</td>
+			<td>1</td>
+			<td> NO</td>
+		   </tr> 
+		   </tbody>
+		</table>
+		<div>
+		ADD NEW MATERIAL
+		<ul>
+		  <li>
+		   <form> 
+		      
+		      <input type = 'text' placeholder = "new material" name = "materialname">
+			  <input type = 'text' placeholder = "total" name = "totalmaterals">
+		  </li>
+			  
+		</ul>
+		   
+		<form>
+		 
+		 
+		  <div>
+		     DEFECTS:
+			 <input name = "Defect" type ="radio" value ="true">TRUE
+			 <input name = "Defect" type ="radio" value = "false">FALSE
+			</div>
+		
+		
+		Category:
+		  <input name ="Category" list = "Categories" placeholder = ""Category">
+		  <datalist id = "Categories">
+		    <option value = "documents">
+			<option value ="Lifting Equipments">
+			<option value = "Service Carts">
+			<option value = "Spaces">
+			<option value = "Emergency">
+			<option value = "Tools">
+			
+		    </datalist>
+		</div>
+		
+         
+		<div>
+		 
+		   <button> ADD MATERIAL </button>
+		</div>   
+		
+		
+	</body>
+  </html>
